@@ -17,7 +17,7 @@ void main()
     {
        if (YourLotteryNo == WinLotteryNo[i]) 
        {
-          printf("Congratulations You Won %8.2f baht\n", WinAmount[i]); 
+          printf("Congratulations You Won %8.2f baht \n", WinAmount[i]); 
           won = 1;
        }
     }
@@ -26,6 +26,6 @@ void main()
     printf("Enter your Lottery Number (0 to end): "); 
     scanf("%d", &YourLotteryNo); 
   }
-  printf("GOODBYE");
+  printf("HaHaHaHa Drone Drak!!!!");
   scanf("%d", &i);
 }
